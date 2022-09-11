@@ -1,3 +1,3 @@
 dockerbuild:
-	docker build . -t jiripuc/circleci-python-node:python3.9-node16-gcloud-cypress -f python3.9-node16-gcloud-cypress/Dockerfile
-	docker push jiripuc/circleci-python-node:python3.9-node16-gcloud-cypress
+	docker build . -t jiripuc/circleci-python-node:python3.10-node16-gcloud-chrome -f python3.10-node16-gcloud-chrome/Dockerfile
+	docker push jiripuc/circleci-python-node:python3.10-node16-gcloud-chrome
